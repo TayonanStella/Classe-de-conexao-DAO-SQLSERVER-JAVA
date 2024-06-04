@@ -13,7 +13,7 @@ public class ConexaoDAO {
     public Connection connect() {
         try {
             // Define Driver de conexão JDBC thin
-            String URL =  "jdbc:sqlserver://localhost:50833;databaseName=softrestaurant10;user=sa;password=National09";
+            String URL =  "jdbc:sqlserver://localhost:50833;databaseName=test;user=sa;password=1234";
  
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             con = DriverManager.getConnection(URL);   
